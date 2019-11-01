@@ -13,6 +13,11 @@ instead of using this bundle.
 
 The installation procedure of the FOSUserBundle is described [in the main Symfony docs](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html)
 
+Note: In Step 1, if you encounter the situation documented this way:
+> If you encounter installation errors pointing at a lack of configuration parameters, such as The child node "db_driver" at path "fos_user" must be configured, you should complete the configuration in Step 5 first and then re-run this step.
+
+You will need to create api/config/packages/fos_user.yaml and populate with the config.yml settings.
+
 You can:
 
 * Skip [step 3 (Create your User class)](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html#step-3-create-your-user-class)
