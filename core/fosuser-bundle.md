@@ -19,6 +19,7 @@ You can:
 and use the class provided in the next paragraph to set up serialization groups the correct way
 * Skip [step 4 (Configure your application's security.yml)](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html#step-4-configure-your-application-s-security-yml)
 if you are planning to [use a JWT-based authentication using `LexikJWTAuthenticationBundle`](jwt.md)
+* The yaml in Step 6 should be put in anew file config/routes/fos_user.yaml
 
 If you are using the API Platform Standard Edition, you will need to enable the form services in the symfony framework
 configuration options:
